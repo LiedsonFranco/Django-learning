@@ -16,7 +16,6 @@ class BlogTests(TestCase):
             title='A good title',
             body='Nice body content',
             author=self.user,
-
         )
 
     def test_string_represention(self):
